@@ -20,6 +20,7 @@ bool app_2048::register_class() {
 		.hInstance = m_instance,
 
 		.hCursor = LoadCursorW(nullptr, L"IDC_ARROW"),
+		.hbrBackground = CreateSolidBrush(RGB(255,255,254)),
 
 		.lpszClassName = s_class_name.c_str()
 
