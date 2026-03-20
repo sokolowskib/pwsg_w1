@@ -353,9 +353,3 @@ private:
         return DefWindowProcW(hwnd, msg, wParam, lParam);
     }
 };
-
-int WINAPI wWinMain(HINSTANCE hInst, HINSTANCE, LPWSTR, int nCmdShow)
-{
-    RectApp app;
-    return app.Run(hInst, nCmdShow);
-}
